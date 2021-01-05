@@ -1,0 +1,21 @@
+{
+  "name": "app.js",
+  "version": "1.0.0",
+  "description": "generates Teams at Work",
+  "main": "app.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "npm run test"
+  },
+  "author": "liban",
+  "license": "ISC",
+  "dependencies": {
+    "file-system": "^2.2.2",
+    "fs": "0.0.1-security",
+    "inquirer": "^7.3.3",
+    "jest": "^26.6.3"
+  }
+}
