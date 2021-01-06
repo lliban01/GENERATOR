@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>My Team</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c502137733.js"></script>
+    <style>
+        body { background-color: aquamarine;}
+        div.card.employee-card {
+            box-shadow: 2px 2px 6px 5px darkcyan;
+            margin: 10px; min-width: 100px;  }       
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 jumbotron mb-3 team-heading bg-danger">
+                <h1 class="text-center text-white">My Team</h1>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="team-area col-12 d-flex justify-content-center">
+                
+<!-- Managers code  -->
+                <div class="card employee-card">
+                    <div class="card-header bg-primary">
+                        <h2 class="card-title text-white">Mark McManager</h2>
+                        <h3 class="card-title text-white"><i class="fas fa-mug-hot mr-2"></i>Manager</h3>
+                    </div>
+                    <div class="card-body">
+                        <ul class="list-group">
+                            <li class="list-group-item">ID: 1</li>
+                            <li class="list-group-item">Email: <a href="mailto:Mark@gmail.com">Mark@gmail.com</a></li>
+                            <li class="list-group-item">Office number: 555-555-5555</li>
+                        </ul>
+                    </div>
+                </div>
+<!-- Engineer code -->
+                <div class="card employee-card mx-3">
+                    <div class="card-header bg-primary">
+                        <h2 class="card-title text-white">Evan McEngineer</h2>
+                        <h3 class="card-title text-white"><i class="fas fa-glasses mr-2"></i>Engineer</h3>
+                    </div>
+                    <div class="card-body">
+                        <ul class="list-group">
+                            <li class="list-group-item">ID: 2</li>
+                            <li class="list-group-item">Email: <a href="mailto:evan@gmail.com">evan@gmail.com</a></li>
+                            <li class="list-group-item">GitHub: <a href="https://github.com/github.com/evan" target="_blank" rel="noopener noreferrer">github.com/evan</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Interns generated COde -->
+                <div class="card employee-card mx-3">
+                    <div class="card-header bg-primary">
+                        <h2 class="card-title text-white">India McIntern</h2>
+                        <h3 class="card-title text-white"><i class="fas fa-user-graduate mr-2"></i>Intern</h3>
+                    </div>
+                    <div class="card-body">
+                        <ul class="list-group">
+                            <li class="list-group-item">ID: 3</li>
+                            <li class="list-group-item">Email: <a href="mailto:india@gmail.com">india@gmail.com</a></li>
+                            <li class="list-group-item">School: Ohio State</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

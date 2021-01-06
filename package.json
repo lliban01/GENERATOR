@@ -8,7 +8,7 @@
     "test": "test"
   },
   "scripts": {
-    "test": "npm run test"
+    "test": "jest test/*"
   },
   "author": "liban",
   "license": "ISC",
@@ -16,6 +16,8 @@
     "file-system": "^2.2.2",
     "fs": "0.0.1-security",
     "inquirer": "^7.3.3",
-    "jest": "^26.6.3"
+    "jest": "^26.6.3",
+    "path": "^0.12.7",
+    "render": "^0.1.4"
   }
 }
